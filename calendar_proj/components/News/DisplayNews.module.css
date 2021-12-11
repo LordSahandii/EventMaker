@@ -1,0 +1,67 @@
+.newsContainer{
+    width: 70%;
+    margin:auto;
+    background-color: #16D6DE;
+    border-radius: 5%;
+}
+
+.newsContainer > div {
+    display: flex;
+}
+
+.newsContainer > div > img {
+    width: 30%;
+    height: 50%;
+    padding-right: 1%;
+    border-radius: 4%;
+}
+
+.newsContainer > a > h2 {
+    width: 70%;
+    padding-left: 5%;
+    color: #166DDE;
+}
+
+.newsContainer > a > h2:hover {
+    color:blue;
+    font-size: 1.6rem;
+}
+.newsContainer > div > p {
+    width: 70%;
+    padding-left: 1%;
+    padding-right: 10%;
+}
+
+.newsContainer > p {
+    color: #166DDE;
+    padding-left: 5%;
+}
+
+.childDiv {
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.childDiv > input[type="text"] {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.childDiv > input[type='text']:hover {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.childDiv > input[type='button'] {
+    background-color: #16D6DE;
+    border: none;
+    height: 2rem;
+    margin-left: 3%;
+    border-radius: 5%;
+    color: white;
+}
+
+.childDiv > input[type='button']:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,2 @@
+check for the url and user matching:
+    - move the index.js content to the components and call the components

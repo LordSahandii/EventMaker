@@ -1,0 +1,19 @@
+.AboutUs {
+    background-color: #16D6DE;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+}
+
+.AboutUs > div {
+    width: 70%;
+    margin: auto;
+}
+
+.AboutUs > div > h3 {
+    color: #166DDE;
+}
+.AboutUs > div > ul {
+    list-style:circle;
+}

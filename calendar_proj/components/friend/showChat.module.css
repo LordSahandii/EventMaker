@@ -1,0 +1,20 @@
+.hello {
+    display: fixed;
+    width: 50%;
+    margin: auto;
+    
+}
+.CurrentUser{
+    text-align: right;
+}
+
+.friend {
+    text-align: left;
+}
+
+.chatDiv{
+    overflow:scroll;
+    height:15rem;
+    margin: auto;
+    background-color: #16D6DE; 
+}

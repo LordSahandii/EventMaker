@@ -1,0 +1,60 @@
+.motherDiv{
+    /* background-color:#16D6DE; */
+    background-color: rgb(191, 230, 248);
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+    /* overflow: auto; */
+    padding-bottom: 0;
+    padding-top: 0;
+    
+}
+.motherDiv > img {
+    width: 20%;
+    margin-left: auto;
+    display: block;
+}
+
+.motherDiv > h2 {
+    text-align: center;
+    color:#166DDE;
+}
+.motherDiv > p {
+    text-align: right;
+    color: #166DDE;
+}
+.motherDiv > span {
+    position: absolute;
+    width: 45%;
+}
+
+.divMother {
+    background-color: #16D6DE;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.divMother button {
+    margin: 5%;
+    margin-top: 10%;
+    width:  20%;
+    height: 5em;
+    border: none;
+    border-radius: 20%;
+    background-color: #166DDE;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divMother button:hover {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 10px 0 white inset, 0 0 10px 4px  #166DDE;
+}
+
+.ViewAllEvents {
+    background-color: #16D6DE;
+}
